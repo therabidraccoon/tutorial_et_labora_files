@@ -12,8 +12,8 @@ public class FilesMainApp {
 		System.out.println("Un byte può valere tra " + min + " e " + max);
 		
 		EtLaboraFileReader reader = new EtLaboraFileReader();
-//		reader.readFile();
-		reader.readFileBufferedReader();
+		reader.readFile();
+//		reader.readFileBufferedReader();
 		
 		EtLaboraFileWriter writer = new EtLaboraFileWriter();
 		writer.writeFile();

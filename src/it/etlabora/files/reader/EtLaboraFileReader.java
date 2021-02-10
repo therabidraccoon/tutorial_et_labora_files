@@ -10,7 +10,7 @@ public class EtLaboraFileReader {
 	
 	public void readFile() {
 		try {
-			BufferedInputStream bis = new BufferedInputStream(new FileInputStream(new File("C:\\Dev\\eclipse_workspaces\\et_labora\\FilesExamples\\index.html")));
+			BufferedInputStream bis = new BufferedInputStream(new FileInputStream(new File("C:/Dev/eclipse_workspaces/et_labora/FilesExamples/index.html")));
 			int data = bis.read();
 			while(data != -1) {
 				char lettera = (char) data;
